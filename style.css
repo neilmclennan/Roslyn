@@ -6,36 +6,36 @@ Description: Custom designed for Roslyn Lodge
 Version: 1.0.2
 */
 
-meta.foundation-version
+foundation-version
 {
 	font-family: "/5.4.3/"
 }
-meta.foundation-mq-small
+foundation-mq-small
 {
 	font-family: "/only screen/";
-	width: 0em
+	width: 0
 }
-meta.foundation-mq-medium
+foundation-mq-medium
 {
 	font-family: "/only screen and (min-width:40.063em)/";
 	width: 40.063em
 }
-meta.foundation-mq-large
+foundation-mq-large
 {
 	font-family: "/only screen and (min-width:64.063em)/";
 	width: 64.063em
 }
-meta.foundation-mq-xlarge
+foundation-mq-xlarge
 {
 	font-family: "/only screen and (min-width:90.063em)/";
 	width: 90.063em
 }
-meta.foundation-mq-xxlarge
+foundation-mq-xxlarge
 {
 	font-family: "/only screen and (min-width:120.063em)/";
 	width: 120.063em
 }
-meta.foundation-data-attribute-namespace
+foundation-data-attribute-namespace
 {
 	font-family: false
 }
@@ -104,10 +104,7 @@ img
 {
 	display: none
 }
-.antialiased
-{
-	
-}
+
 img
 {
 	display: inline-block;
@@ -209,13 +206,13 @@ select
 	.small-push-0
 	{
 		position: relative;
-		left: 0%;
+		left: 0;
 		right: auto
 	}
 	.small-pull-0
 	{
 		position: relative;
-		right: 0%;
+		right: 0;
 		left: auto
 	}
 	.small-push-1
@@ -1113,7 +1110,7 @@ select
 	}
 	.large-offset-0
 	{
-		margin-left: 0% !important
+		margin-left: 0 !important
 	}
 	.large-offset-1
 	{
@@ -1194,13 +1191,13 @@ select
 	.push-0
 	{
 		position: relative;
-		left: 0%;
+		left: 0;
 		right: auto
 	}
 	.pull-0
 	{
 		position: relative;
-		right: 0%;
+		right: 0;
 		left: auto
 	}
 	.push-1
@@ -1338,7 +1335,7 @@ select
 }button,.button
 {
 	border-style: solid;
-	border-width: 0px;
+	border-width:0;
 	cursor: pointer;
 	font-family: "Open Sans",sans-serif;
 	font-weight: normal;
@@ -1675,7 +1672,7 @@ button::-moz-focus-inner
 {
 	border-top: 1px solid;
 	border-color: rgba(255,255,255,0.5);
-	border-left-width: 0px;
+	border-left-width:0;
 	margin: 0;
 	display: block
 }
@@ -1698,7 +1695,7 @@ button::-moz-focus-inner
 {
 	border-left: 0
 }
-@media only screen and (max-width: 40em)
+@media only screen and (max-width: 40)
 {
 	.button-group.stack-for-small>li
 	{
@@ -1721,7 +1718,8 @@ button::-moz-focus-inner
 	{
 		border-top: 1px solid;
 		border-color: rgba(255,255,255,0.5);
-		border-left-width: 0px;
+		border-left-width:0
+;
 		margin: 0;
 		display: block
 	}
@@ -1783,7 +1781,7 @@ button::-moz-focus-inner
 {
 	border-top: 1px solid;
 	border-color: rgba(255,255,255,0.5);
-	border-left-width: 0px;
+	border-left-width:0;
 	margin: 0;
 	display: block
 }
@@ -1842,7 +1840,7 @@ button::-moz-focus-inner
 		border-bottom-right-radius: 3px;
 		border-top-right-radius: 3px
 	}
-}@media only screen and (max-width: 40em)
+}@media only screen and (max-width: 40)
 {
 	.button-group.radius.stack-for-small>*
 	{
@@ -1865,7 +1863,8 @@ button::-moz-focus-inner
 	{
 		border-top: 1px solid;
 		border-color: rgba(255,255,255,0.5);
-		border-left-width: 0px;
+		border-left-width:0
+;
 		margin: 0;
 		display: block
 	}
@@ -1943,7 +1942,7 @@ button::-moz-focus-inner
 {
 	border-top: 1px solid;
 	border-color: rgba(255,255,255,0.5);
-	border-left-width: 0px;
+	border-left-width:0;
 	margin: 0;
 	display: block
 }
@@ -2002,7 +2001,7 @@ button::-moz-focus-inner
 		border-bottom-right-radius: 1000px;
 		border-top-right-radius: 1000px
 	}
-}@media only screen and (max-width: 40em)
+}@media only screen and (max-width: 40)
 {
 	.button-group.round.stack-for-small>*
 	{
@@ -2025,7 +2024,8 @@ button::-moz-focus-inner
 	{
 		border-top: 1px solid;
 		border-color: rgba(255,255,255,0.5);
-		border-left-width: 0px;
+		border-left-width:0
+;
 		margin: 0;
 		display: block
 	}
@@ -2352,7 +2352,7 @@ span.postfix,label.postfix
 input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="color"],textarea
 {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0px;
+	-webkit-border-radius:0;
 	background-color: #fff;
 	font-family: inherit;
 	border: 1px solid #ccc;
@@ -2461,7 +2461,7 @@ form .row .postfix-round.row.collapse .postfix
 input[type="submit"]
 {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0px
+	-webkit-border-radius:0
 }
 textarea[rows]
 {
@@ -2470,9 +2470,11 @@ textarea[rows]
 select
 {
 	-webkit-appearance: none !important;
-	-webkit-border-radius: 0px;
+	-webkit-border-radius:0;
 	background-color: #FAFAFA;
-	background-image: url("data:image/svg+xml");
+	background-image: url(data:image/svg+xml);
+	
+	
 	background-position: 100% center;
 	background-repeat: no-repeat;
 	border: 1px solid #ccc;
@@ -2692,7 +2694,7 @@ label.error
 {
 	text-align: justify !important
 }
-@media only screen and (max-width: 40em)
+@media only screen and (max-width: 40)
 {
 	.small-only-text-left
 	{
@@ -2764,7 +2766,7 @@ label.error
 	{
 		text-align: justify !important
 	}
-}@media only screen and (min-width: 64.063em) and (max-width: 90em)
+}@media only screen and (min-width: 64.063em) and (max-width: 90)
 {
 	.large-only-text-left
 	{
@@ -2800,7 +2802,7 @@ label.error
 	{
 		text-align: justify !important
 	}
-}@media only screen and (min-width: 90.063em) and (max-width: 120em)
+}@media only screen and (min-width: 90.063em) and (max-width: 120)
 {
 	.xlarge-only-text-left
 	{
@@ -3681,7 +3683,7 @@ th.hide-for-touch
 	top: 0.5em;
 	right: 0.5em
 }
-@media only screen and (max-width: 40em)
+@media only screen and (max-width: 40)
 {
 	.banner .facebook-link
 	{
