@@ -2472,9 +2472,7 @@ select
 	-webkit-appearance: none !important;
 	-webkit-border-radius: 0px;
 	background-color: #FAFAFA;
-	background-image: url(data:image/svg+xml);
-	
-	
+	background-image: url("data:image/svg+xml");
 	background-position: 100% center;
 	background-repeat: no-repeat;
 	border: 1px solid #ccc;
